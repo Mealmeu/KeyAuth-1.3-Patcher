@@ -7,7 +7,7 @@ from ctypes import wintypes
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
 from cryptography.hazmat.primitives import serialization
 
-target_exes = ["v1.exe", "v2.exe", "v3.exe", "v4.exe"]
+target_exes = ["file_name.exe"]
 USERPROFILE = os.getenv("USERPROFILE")
 ORIG_PUBKEY = "5586b4bc69c7a4b487e4563a4cd96afd39140f919bd31cea7d1c6a1e8439422b".encode()
 
